@@ -1,0 +1,248 @@
+/* General Styles for Larger Devices (unchanged) */
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #fff; /* Added background color */
+  padding: 5px;
+  border-radius: 50%;
+
+}
+
+.btn {
+  width: 110px;
+  height: 40px;
+}
+
+.b-img {
+  width: 300px;
+  border: 1px solid #f4d8d8;
+  box-shadow: 10px 7px 20px #00FFFF;
+  border-radius: 8px;
+}
+
+.left-side {
+  margin-top: 100px;
+}
+
+.right-side {
+  margin-left: 180px;
+}
+
+.list {
+  list-style: none;
+}
+
+.p1 {
+  width: 400px;
+  height: 250px;
+  margin-bottom: 100px;
+}
+
+.d-block {
+  width: 500px;
+  height: 300px;
+}
+
+.project-description {
+  margin-left: 120px;
+}
+
+.btn-grp button, .btn-grp a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.carousel-itm {
+  margin-right: 100px;
+}
+
+.right-div {
+  margin-left: 120px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid #f4d8d8;
+  box-shadow: 10px 7px 20px #00FFFF;
+  border-radius: 8px;
+}
+
+.time {
+  margin-left: 90px;
+}
+
+.contact {
+  width: 600px;
+  margin-left: 340px;
+}
+
+/* Responsive Styles for Tablets and Smaller Devices */
+@media (max-width: 992px) {
+  .navbar-brand {
+      margin: 0 auto;
+  }
+
+  .navbar-toggler {
+      border: none;
+      color: #fff;
+  }
+
+  .left-side {
+      margin-top: 20px;
+      order: 1;
+  }
+
+  .right-side {
+      margin-left: 0;
+      margin-top: 20px;
+      order: 2;
+  }
+
+  .b-img {
+      display: block;
+      margin: 0 auto;
+  }
+
+  .logo {
+      margin: 0 auto;
+      background-color: #fff; /* Added background color */
+      padding: 5px;
+      border-radius: 50%;
+  }
+
+  .expertise, .comfortable, .familiar, .tools, .education {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .expertise > div, .comfortable > div, .familiar > div, .tools > div, .education > div {
+      flex: 1 1 100%;
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .project-description {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+
+  .btn-grp {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .carousel-itm {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .right-div {
+      margin-left: 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .time {
+      margin-left: 0;
+  }
+
+  .contact {
+      width: 100%;
+      margin-left: 0;
+  }
+
+  .navbar-nav {
+      text-align: center;
+  }
+
+  .btn-grp {
+      flex-direction: column;
+  }
+}
+
+/* Responsive Styles for Small Devices (Phones) */
+@media (max-width: 576px) {
+  .left-side {
+      text-align: center;
+      margin-bottom: 20px;
+      order: 1;
+  }
+
+  .right-side {
+      order: 2;
+  }
+
+  .b-img {
+      display: block;
+      margin: 0 auto;
+      order: 3;
+  }
+
+  .logo {
+      margin: 0 auto;
+      background-color: #fff; /* Added background color */
+      padding: 5px;
+      border-radius: 50%;
+  }
+
+  .expertise, .comfortable, .familiar, .tools, .education {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .expertise > div, .comfortable > div, .familiar > div, .tools > div, .education > div {
+      flex: 1 1 100%;
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .project-description {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+
+  .btn-grp {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .carousel-itm {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .right-div {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    order: 2; /* Ensure the right-div is below the left-side */
+  }
+
+  .time {
+      margin-left: 0;
+  }
+
+  .contact {
+      width: 100%;
+      margin-left: 0;
+  }
+
+  .navbar-nav {
+      text-align: center;
+  }
+
+  .btn-grp {
+      flex-direction: column;
+  }
+}
+
